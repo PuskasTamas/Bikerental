@@ -1,0 +1,25 @@
+USE master
+GO
+ALTER DATABASE BikeRental SET RECOVERY FULL
+GO
+
+DECLARE @name VARCHAR(50) -- database name 
+DECLARE @logicalname VARCHAR(50)
+DECLARE @path VARCHAR(256) -- path for backup files 
+DECLARE @fileName VARCHAR(256) -- filename for backup 
+DECLARE @fileDate VARCHAR(20) -- used for file name
+
+
+SET @name = ''BikeRental''
+
+SET @logicalname = @name + ''_LOG''
+
+SET @path = @pathBackup
+
+SELECT @fileDate = CONVERT(VARCHAR(20),GETDATE(),112) + ''_'' + REPLACE(CONVERT(VARCHAR(20),GETDATE(),108),'':'','')
+
+SET @fileName = @path + @name + ''_'' + @fileDate + ''_log.BAK''
+
+BACKUP LOG @name TO DISK = @fileName
+WITH NAME = @logicalname, compression, checksum
+GO
