@@ -17,4 +17,3 @@ The *Create Bikerental database.md* describes the order in which the files shoul
 if you want to create the database yourself.
 
 - *schema.jpg* shows the structure of the database.
-
