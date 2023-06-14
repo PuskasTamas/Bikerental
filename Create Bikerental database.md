@@ -18,4 +18,8 @@ I wonder what can do this for? 😃
 Help the work of a future client application.
 7. **Backups**  
 There is a full, a differential and a transaction agent file.  
-You have to replace few variables with yours.
+You have to replace few values with yours after the next variables:  
+\- @owner_login_name (at two places)  
+\- @server_name  
+\- @command  
+\- @active_start_date
