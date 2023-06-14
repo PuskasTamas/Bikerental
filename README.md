@@ -13,7 +13,7 @@ It builds up the database completely with your paths and datas.
 It creates backup agent files with timestamps in their names, too.
 
 ### Manually install the database
-The *Create Bikerental database.md* describes the order in which the files should be run  
+*Create Bikerental database.md* describes the order in which the files should be run  
 if you want to create the database yourself.
 
-- *schema.jpg* shows the structure of the database.
+*Schema.jpg* shows the structure of the database.
