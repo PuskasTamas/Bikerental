@@ -7,9 +7,10 @@ it stores types, prices, quantities of bikes for hire
 and it even contains the information of maintenances of bikes.
 
 ### Auto install the database with desktop application
-First you have to save all files and directories to SOMEWHERE on your computer.  
-Run **Bikerental.exe** desktop application on Windows.  
-It builds up the database completely with your paths and datas.
+1. First you have to save all files and directories to a folder SOMEWHERE on your computer.  
+2. Run **Bikerental.exe** desktop application on Windows.  
+It builds up the database completely with your paths and datas.  
+It creates backup agent files with timestamps in their names, too.
 
 ### Manually install the database
 The *Create Bikerental database.md* describes the order in which the files should be run  
