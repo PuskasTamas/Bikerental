@@ -8,12 +8,14 @@ The *basics_database* folder contains the main SQL scripts of the database:
 1. **Create_db_main.sql**  
 It creates *.mdf* and *.ldf* files.  
 You have to replace *@pathdatabase* variable with your path.  
-3. **Create_tables_indexes.sql**  
+2. **Create_tables_indexes.sql**  
 It creates tables and indexes with constraints.
-4. **Create_login.sql**  
+3. **Create_login.sql**  
 It creates few login names with authorizations.
-5. **insert_values.sql**  
+4. **Insert_values.sql**  
 I wonder what can do this for? 😃
-
-The other scripts help the work of a client application.  
-Description of they's details is arriving soon.
+5. **The other scripts**  
+Help the work of a future client application.
+7. **Backups**  
+There is a full, a differential and a transaction agent file.  
+You have to replace few variables with yours.
