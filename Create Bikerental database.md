@@ -1,4 +1,4 @@
-# Description of create of the order of database.
+# Description of create of the order of database. 
 
 **Highly recommended running Bikerental.exe desktop application on Windows.  
 It creates the database completely with your paths and datas.**
