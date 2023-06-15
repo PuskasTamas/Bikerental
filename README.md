@@ -1,4 +1,4 @@
-# Bikerental 
+# Bikerental database for SQL Server
 This database can manage a bike rental service in many branches.  
 It handles customers' and employees' personal datas,  
 purchases of bikes,  
