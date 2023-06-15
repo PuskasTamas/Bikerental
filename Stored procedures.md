@@ -1,4 +1,4 @@
 # Description of stored procedures
 - **Rental order**  
 It needs employee's and customer's name, the bike's name and a quantiy.  
-Then it creates a rental order identity
+Then it creates a rental order identity, a trigger counts a rental cost and a 
