@@ -17,3 +17,5 @@ It creates backup agent files with timestamps in their names, too.
 if you want to create the database yourself.
 
 *Schema.jpg* shows the structure of the database.
+
+*Bikerental.exe* desktop application was developed by myself in C# WPF.
