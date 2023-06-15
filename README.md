@@ -19,3 +19,5 @@ if you want to create the database yourself.
 #### Schema.jpg shows the structure of the database.
 
 #### Bikerental.exe Windows desktop application was developed by myself in C# WPF.
+The source code is found my repository:  
+<https://github.com/PuskasTamas/Bikerental-database-installer>
