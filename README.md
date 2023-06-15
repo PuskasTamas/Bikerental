@@ -16,6 +16,6 @@ It creates backup agent files with timestamps in their names, too.
 *Create Bikerental database.md* describes the order in which the files should be run  
 if you want to create the database yourself.
 
-*Schema.jpg* shows the structure of the database.
+#### Schema.jpg shows the structure of the database.
 
-*Bikerental.exe* desktop application was developed by myself in C# WPF.
+#### Bikerental.exe Windows desktop application was developed by myself in C# WPF.
